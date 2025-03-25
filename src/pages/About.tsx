@@ -28,7 +28,7 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              Professional Quality Assurance Engineer with a passion for ensuring software excellence.
+              Experienced QA Engineer specializing in mobile app testing, Web testing, API integration, and server interactions.
             </motion.p>
           </div>
           
@@ -46,12 +46,12 @@ const About = () => {
                 </div>
               </div>
               <div className="p-8 md:p-12">
-                <h2 className="text-2xl font-bold">John Doe</h2>
-                <p className="mt-2 text-primary">Senior QA Engineer</p>
+                <h2 className="text-2xl font-bold">Sergiu Contevici</h2>
+                <p className="mt-2 text-primary">QA Engineer</p>
                 <p className="mt-4 text-muted-foreground">
-                  I am a detail-oriented Quality Assurance Engineer with over 7 years of experience 
-                  in software testing and quality processes. My expertise spans manual testing, 
-                  test automation, performance testing, and implementing effective QA methodologies.
+                  Proficient in API auto testing with Postman, Java, and tools like Charles Proxy, Selenium, and Allure. 
+                  Skilled in creating test plans, implementing automation, and performing regression testing. 
+                  Collaborative team player, ensuring quality releases by resolving issues with developers and enhancing testing strategies.
                 </p>
                 <div className="mt-6 flex flex-wrap gap-2">
                   <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
@@ -59,6 +59,9 @@ const About = () => {
                   </span>
                   <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
                     API Testing
+                  </span>
+                  <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
+                    Manual Testing
                   </span>
                   <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
                     Performance Testing
@@ -70,7 +73,7 @@ const About = () => {
                     Cypress
                   </span>
                   <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
-                    JMeter
+                    Espresso
                   </span>
                 </div>
               </div>
@@ -93,16 +96,17 @@ const About = () => {
                     <div className="absolute -left-2 top-0 bg-white p-1">
                       <div className="w-4 h-4 rounded-full bg-primary"></div>
                     </div>
-                    <h3 className="text-xl font-medium">Senior QA Engineer</h3>
-                    <p className="text-primary mt-1">Tech Solutions Inc. • 2020 - Present</p>
+                    <h3 className="text-xl font-medium">QA Engineer</h3>
+                    <p className="text-primary mt-1">XOR • 2021 - Present</p>
                     <p className="mt-4 text-muted-foreground">
-                      Lead the QA team in implementing test automation frameworks and CI/CD integration.
-                      Responsible for quality assurance across multiple projects including web and mobile applications.
+                      Experience of developing and implementing effective testing strategies to ensure the quality 
+                      and reliability of software applications. Strong collaborator, ensuring timely issue resolution 
+                      with developers and project managers while delivering high-quality, defect-free releases.
                     </p>
                     <ul className="mt-4 space-y-2">
                       <li className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-primary shrink-0 mr-2 mt-0.5" />
-                        <span>Implemented Cypress test automation framework reducing regression testing time by 70%</span>
+                        <span>Implemented test automation frameworks for web and mobile applications</span>
                       </li>
                       <li className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-primary shrink-0 mr-2 mt-0.5" />
@@ -110,7 +114,7 @@ const About = () => {
                       </li>
                       <li className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-primary shrink-0 mr-2 mt-0.5" />
-                        <span>Conducted performance testing for high-traffic web applications</span>
+                        <span>Conducted performance testing for high-traffic applications</span>
                       </li>
                     </ul>
                   </div>
@@ -120,10 +124,9 @@ const About = () => {
                       <div className="w-4 h-4 rounded-full bg-primary"></div>
                     </div>
                     <h3 className="text-xl font-medium">QA Engineer</h3>
-                    <p className="text-primary mt-1">Digital Innovators • 2017 - 2020</p>
+                    <p className="text-primary mt-1">MyTresor • 2018 - 2021</p>
                     <p className="mt-4 text-muted-foreground">
-                      Responsible for manual and automated testing of web and mobile applications.
-                      Worked closely with development teams to implement testing into the development lifecycle.
+                      Optimized test plans and automation scripts, focusing on API integration testing and mobile app quality assurance.
                     </p>
                     <ul className="mt-4 space-y-2">
                       <li className="flex items-start">
@@ -132,11 +135,11 @@ const About = () => {
                       </li>
                       <li className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-primary shrink-0 mr-2 mt-0.5" />
-                        <span>Created and maintained automated tests using Selenium WebDriver</span>
+                        <span>Created and maintained automated tests using Selenium and Espresso</span>
                       </li>
                       <li className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-primary shrink-0 mr-2 mt-0.5" />
-                        <span>Conducted API testing using Postman and REST Assured</span>
+                        <span>Conducted API testing using Postman and Charles Proxy</span>
                       </li>
                     </ul>
                   </div>
@@ -170,7 +173,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-medium">Test Automation</h3>
                 <p className="mt-2 text-muted-foreground">
-                  Proficient in creating and maintaining test automation frameworks using Selenium, Cypress, and Playwright.
+                  Proficient in creating and maintaining test automation frameworks using Selenium, Cypress, and Espresso.
                 </p>
               </div>
               
@@ -178,9 +181,9 @@ const About = () => {
                 <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                   <Shield className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="text-xl font-medium">Security Testing</h3>
+                <h3 className="text-xl font-medium">Mobile App Testing</h3>
                 <p className="mt-2 text-muted-foreground">
-                  Experience in identifying security vulnerabilities and implementing security testing practices.
+                  Experience in testing mobile applications on different platforms using tools like Espresso and Appium.
                 </p>
               </div>
               
@@ -190,7 +193,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-medium">Performance Testing</h3>
                 <p className="mt-2 text-muted-foreground">
-                  Skilled in performance testing using JMeter, Gatling, and other performance testing tools.
+                  Skilled in performance testing using JMeter and other performance testing tools.
                 </p>
               </div>
               
@@ -200,7 +203,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-medium">API Testing</h3>
                 <p className="mt-2 text-muted-foreground">
-                  Extensive experience in testing RESTful APIs, SOAP services, and GraphQL endpoints.
+                  Extensive experience in testing RESTful APIs using Postman, Java, and Charles Proxy.
                 </p>
               </div>
             </div>
@@ -223,9 +226,9 @@ const About = () => {
               </div>
               
               <div className="bg-white rounded-xl p-6 shadow-sm border border-border">
-                <h3 className="text-xl font-medium">Certified Selenium Professional</h3>
+                <h3 className="text-xl font-medium">Mobile Application Testing Certification</h3>
                 <p className="mt-2 text-muted-foreground">
-                  Selenium Automation Testing Certification
+                  Mobile App Testing Professional Certification
                 </p>
               </div>
             </div>
@@ -237,3 +240,4 @@ const About = () => {
 };
 
 export default About;
+
