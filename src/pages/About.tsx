@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import Layout from '../components/Layout';
 import { CheckCircle, FileCheck, Code, Shield, Book, Award } from 'lucide-react';
@@ -42,12 +41,14 @@ const About = () => {
           >
             <div className="md:flex">
               <div className="md:flex-shrink-0 md:w-1/3">
-                <div className="h-full flex items-center justify-center p-4 md:p-8 bg-gradient-to-r from-primary/5 to-primary/10">
-                  <img 
-                    src="/lovable-uploads/f446dfc0-0383-4317-bb5f-d695befb07e3.png" 
-                    alt="Sergiu Contevici" 
-                    className="h-64 w-64 object-cover rounded-full border-4 border-white shadow-md"
-                  />
+                <div className="h-full flex items-center justify-center p-4 md:p-8 bg-gradient-to-r from-primary/5 to-primary/10 rounded-full md:rounded-none">
+                  <div className="rounded-full bg-gradient-to-r from-primary/10 to-primary/20 p-2">
+                    <img 
+                      src="/lovable-uploads/f446dfc0-0383-4317-bb5f-d695befb07e3.png" 
+                      alt="Sergiu Contevici" 
+                      className="h-64 w-64 object-cover rounded-full border-4 border-white shadow-md"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="p-8 md:p-12">
