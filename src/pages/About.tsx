@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import Layout from '../components/Layout';
 import { CheckCircle, FileCheck, Code, Shield, Book, Award } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '../components/ui/avatar';
 
 const About = () => {
   return (
@@ -41,8 +42,12 @@ const About = () => {
           >
             <div className="md:flex">
               <div className="md:flex-shrink-0 md:w-1/3">
-                <div className="h-64 bg-gradient-to-r from-primary/80 to-primary flex items-center justify-center">
-                  <div className="text-white text-4xl font-bold">QA</div>
+                <div className="h-full flex items-center justify-center p-4 md:p-8 bg-gradient-to-r from-primary/5 to-primary/10">
+                  <img 
+                    src="/lovable-uploads/f446dfc0-0383-4317-bb5f-d695befb07e3.png" 
+                    alt="Sergiu Contevici" 
+                    className="h-64 w-64 object-cover rounded-full border-4 border-white shadow-md"
+                  />
                 </div>
               </div>
               <div className="p-8 md:p-12">
@@ -240,4 +245,3 @@ const About = () => {
 };
 
 export default About;
-
